@@ -1,0 +1,6 @@
+name: Kubernetes and Helm
+author: Paychant
+description: Kubernetes and Helm to deploy to cluster
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
