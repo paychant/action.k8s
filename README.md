@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Deploy to k8s
-        uses: paychantorg/action.k8s@v1.1.0
+        uses: paychantorg/action.k8s@v1.0.0
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
